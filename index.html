@@ -3,134 +3,323 @@
 
 <head>
   <meta charset="utf-8">
-  <title>JAGG's Personal Site</title>
+  <title>Halifax Spice Company</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://kit.fontawesome.com/fc23fcebca.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <!-- cellspacing is deprecated and best left to CSS -->
-  <table cellspacing="20">
-    <td>
-      <img src="images/John.Green-GRAD-1-circle.png" alt="John's Grad Picture from NSCC" width="200px">
-    </td>
-    <td>
-      <h1>JAGG</h1>
-      <!-- <p><i><b></b>Graduate: </b>Marine Engineeering Technologist and IT Generalist</i></p> -->
-      <p><em><strong>Graduate: </strong>Marine Engineeering Technologist and IT Generalist</em></p>
-      <p>John was born a poor Englishman</p>
-    </td>
-  </table>
 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Beamsville District High School</li>
-    <li>St. Lawrence College</li>
-    <li>Nova Scotia Community College</li>
-  </ul>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <a class="navbar-brand" href="">Trade Winds Spice Blend</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#recipes">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#retail">Retail Locations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#corporate">Corporate Sales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1981-2017</td>
-        <td>Marine Engineer RCN</td>
-      </tr>
-      <tr>
-        <td>2017-2020</td>
-        <td>IT Generalist Student NSCC</td>
-      </tr>
-      <tr>
-        <td>2022</td>
-        <td>Commissionaire</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>The footer is here</td>
-      </tr>
-    </tfoot>
-  </table>
+  <section id="home">
+    <div class="container-fluid">
+      <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
 
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tbody>
-      <tr>
-        <td>Java</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td></td>
-        <td>HTML</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-      </tr>
-      <tr>
-        <td>Android</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td></td>
-        <td>Phython</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td>🔲</td>
-      </tr>
-      <tr>
-        <td>SQL</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td></td>
-        <td>C+</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td>🔲</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td></td>
-        <td>Ruby</td>
-        <td>🍁</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td>🔲</td>
-        <td>🔲</td>
-      </tr>
-    </tbody>
-  </table>
+      <!-- HOME SECTION -->
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="big-heading">HALIFAX SPICE COMPANY</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <!-- <img class="oldhalifax-image" src="images/halifax-1750.jpg" alt="Halifax circa 1750"> -->
+        </div>
+        <div class="col-md-4">
+          <img class="waterfront-image" src="images/waterfront.png" alt="Halifax Waterfront">
+        </div>
+        <div class="col-md-4">
+          <!-- <img class="oldscotia-image" src="images/oldnovascotia.jpg" alt="Old Nova Scotia"> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="scroll-image" src="images/leftscroll2.png" alt="Left Scroll">
+        </div>
+        <div class="col-md-4">
+          <img class="crest-image" src="images/HSCCrest.png" alt="Halifax Spice Crest">
+        </div>
+        <div class="col-md-4">
+          <img class="scroll-image" src="images/rightscroll2.png" alt="Right Scroll">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <hr>
-  <a href="inputs.html">Input examples</a>
-  <hr>
-  <a href="contact.html">Contact</a>
+  <!-- PRODUCTS SECTION -->
+  <section id="products">
+    <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="big-heading">HALIFAX SPICE PRODUCTS</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product-column col-md-6">
+        <table>
+          <tr>
+            <td><img class="product-image" src="images/spiceblend.png" alt="Spice Blend Image"></td>
+            <td colspan="2">
+              <h3>Trade Winds Spice Blend</h3>
+              <p>Trade Winds Spice Blend is a unique blend of herbs and spices, that combine to create the ultimate flavour enhancer, which can be used on a wide variety of foods, on a daily basis, such as steaks, burgers, wild game, chiken, pasta,
+                steamed vegetables, salads, eggs, popcorn, and fantastic on all seafood.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <h4>Ingredients:</h4>
+              <p>Salt, Garlic, Sugar, Black Pepper, Onion, Celery Seed, Cumin, Cayenne Pepper, plus other herbs & spices. Contains no MSG. Packaged in 80g and 200g bottles</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="product-column col-md-6">
+        <table>
+          <tr>
+            <td><img class="product-image" src="images/saltfree.png" alt="Salt Free Spice Image"></td>
+            <td colspan="2">
+              <h3>Salt Free Spice Blend</h3>
+              <p>Absolutely no salt. This spice blend adds wonderful flavour to all foods. Try it on chicken, seafood, eggs, vegetables, soups, pasts and popcorn.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <h4>Ingredients:</h4>
+              <p>Onion Powder, Garlic Powder, Paprika, Dry Mustard, and other spices. Contains no MSG. Packaged 65g</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="product-column col-md-6">
+        <table>
+          <tr>
+            <td><img class="product-image" src="images/pastaspice.png" alt="Pasts Spice Image"></td>
+            <td colspan="2">
+              <h3>Trade Winds Pasta Spice</h3>
+              <p>A pre-packaged blend of spices that makes an outstanding gourmet sauce foe spagetti, lasagna, homemade pizza. Add kidney beans for a great chilli and delicious as a dip with nacho's and sour cream. Makes 3 quarts or 120 oz of
+                delicious pasta sauce.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <h4>Ingredients:</h4>
+              <p>Salt, Sugar, Basil, Garlic, plus other herbs & spices. Contains no MSG. Packaged in 113g (4oz) kits</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="product-column col-md-6">
+        <table>
+          <tr>
+            <td><img class="product-image" src="images/sweetmustard.png" alt="Sweet Mustard Image"></td>
+            <td colspan="2">
+              <h3>Sweet Mustard</h3>
+              <p>Trade Winds Gourmet Mustard is a sweet and hot mustard that can be used on a variety of foods, such as smoked meat, ham, pork, and outstanding on sausages. Check out our recipes for deviled eggs, meat loaves and potato salad. People
+                that hate mustard love our product.</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <h4>Ingredients:</h4>
+              <p>Prepared Mustard (Distilled Vinegar, Water, No 1 Grade Mustard Seed, Salt, Contains less than 2% of Tumeric, Paprika, Spice, Natural Flavour, Garlic Powder), Vinegar, Bleached Wheat Flour Enriched (Niacin, Reduced Iron, Thalmine,
+                Mononitrate, Riboflavin, Folic Acid), Malted Barley Flour (Contains Wheat, Soy), Sugar, Jalapenos. Packaged in 458g (16oz) bottles</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="recipes">
+    <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="big-heading">HALIFAX SPICE RECIPIES</h1>
+      </div>
+    </div>
+  </section>
+
+  <section id="retail">
+    <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="big-heading">HALIFAX SPICE RETAIL LOCATIONS</h1>
+      </div>
+    </div>
+  </section>
+
+  <section id="corporate">
+    <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="big-heading">HALIFAX SPICE CORPORATE SALES</h1>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="big-heading">CONTACT HALIFAX SPICE</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img class="salescrest-image" src="images/HSCCrest.png" alt="Halifax Spice Crest">
+        <h2>To purchase please contact:</h2>
+        <p><strong>Barry Schnare</strong></p>
+        <p><strong>902-223-4004</strong></p>
+        <p><strong>tradewinds@halifaxspice.com</strong></p>
+        <h3>...or mail to:</h3>
+        <p><strong>The Halifax Spice Company Limited</strong></p>
+        <p><strong>Box 8051 CSC</strong></p>
+        <p><strong>Halifax, Nova Scotia</strong></p>
+        <p><strong>B3K 5L8</strong></p>
+      </div>
+      <div class="col-md-8">
+        <form class="row g-3">
+
+          <div class="col-md-10">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName">
+          </div>
+          <div class="col-10">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-10">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-5">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-3">
+            <label for="inputProvince" class="form-label">Province</label>
+            <select id="inputProvince" class="form-select">
+              <option selected>Choose...</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland and Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Quebec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+              <option>Not Canadian</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputPC" class="form-label">Postal Code</label>
+            <input type="text" class="form-control" id="inputPC">
+          </div>
+          <div class="col-md-10">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-floating col-md-10">
+            <textarea class="form-control form-label" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Please add questions, concerns or comments...</label>
+          </div>
+          <div class="col-8">
+            <label class="form-label"><strong>Products of interest...</strong></label>
+            <br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="spiceCheck">
+              <label class="form-check-label" for="spiceCheck">
+                Trade Winds Spice Blend
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="saltfreeCheck">
+              <label class="form-check-label" for="saltfreeCheck">
+                Salt Free Spice Blend
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="pastaCheck">
+              <label class="form-check-label" for="pastaCheck">
+                Trade Winds Pasta Spice
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="mustardCheck">
+              <label class="form-check-label" for="mustardCheck">
+                Sweet Mustard
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="responseCheck">
+              <label class="form-check-label" for="responseCheck">
+                Check if you wish to be contacted
+              </label>
+            </div>
+          </div>
+          <div class="col-8">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <!-- <i class="fa-solid fa-envelope footer-icon"></i> -->
+      <p>©2022 Copyright Halifax Spice Company</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
