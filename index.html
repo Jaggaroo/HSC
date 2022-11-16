@@ -15,6 +15,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
+  <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -61,7 +63,7 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <!-- <img class="oldhalifax-image" src="images/halifax-1750.jpg" alt="Halifax circa 1750"> -->
+
         </div>
         <div class="col-md-4">
           <img class="waterfront-image" src="images/waterfront.png" alt="Halifax Waterfront">
@@ -177,14 +179,135 @@
       <div class="col-md-6">
         <h1 class="big-heading">HALIFAX SPICE RECIPIES</h1>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+          <table>
+            <tr>
+              <img class="oldhalifax-image" src="images/halifax1750.png" alt="Halifax circa 1750">
+            </tr>
+            <tr>
+              <dt>Square Rigger Tators</dt>
+              <dd>Wash and quarter potatoes. Leave peeling on. Rub with oil. Place in plastic bag and sprinkle with Tradewinds Spice Blend and shake until coated. Bake on cookie sheet @ 400 degrees for 45 minutes or until golden brown. Enjoy!</dd>
+            </tr>
+            <tr>
+              <dt>The Captain’s Bagel</dt>
+              <dd>Cut a bagel in two halves. Apply generous amount of cheddar cheese and sprinkle with Tradewinds Spice Blend. Heat in microwave until cheese melts. Delicious and quick!</dd>
+            </tr>
+            <tr>
+              <dt>High Seas Popcorn</dt>
+              <dd>Microwave your favorite popcorn. While still hot, sprinkle Tradewinds Spice Blend to taste. Adds a unique flavor!</dd>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-6">
+          <table>
+            <tr>
+              <dt>Seadog Omelet</dt>
+              <dd>Blend two eggs together in a bowl. Sprinkle a small amount of Tradewinds Spice Blend while mixing. Cook in a skillet on low heat and add cheese, bacon bits, onions and green peppers or your own favorite ingredients.</dd>
+            </tr>
+            <tr>
+              <dt>Mate’s Chicken</dt>
+              <dd>Place chicken on broiler pan. Prepare chicken by piercing the skin with a sharp knife or fork. Sprinkle with Tradewinds Spice Blend. Add two strips of bacon over the chicken and cover with tin foil. Fold foil under edges of broiler
+                pan. Cook @ 350 degrees until chicken is completely cooked. Remove foil and brown chicken. Juicy and delicious!</dd>
+            </tr>
+            <tr>
+              <dt>Nautical Pita Chips</dt>
+              <dd>Take a large pita and carefully separate with a knife into two flat pieces. Brush olive oil lightly on both sides of the separated pitas. Sprinkle with Tradewinds Spice Blend. Take pizza cutter and cut into triangles. Bake @ 375 for
+                7-10 minutes, watching they do not get too crispy. Dip in your favorite dip or salsa. </dd>
+            </tr>
+            <tr>
+              <dt>Galley Pizza</dt>
+              <dd>Same some of your Tradewinds Pasta Sauce to make delicious homemade pizza. Simply scoop a generous amount of Tradewinds Pasta Sauce on your pizza dough, cover with your favorite cheese and cook to perfection!</dd>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="retail">
+
+    <script type="text/javascript">
+      function toggleabmn() {
+        var abmn = document.getElementById("albertamanitoba");
+        if (abmn.style.display = "none";) {
+          abmn.style.display = "block";
+        } else {
+          abmn.style.display = "none";
+        }
+      }
+    </script>
+
     <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
     <div class="row">
       <div class="col-md-6">
         <h1 class="big-heading">HALIFAX SPICE RETAIL LOCATIONS</h1>
+      </div>
+      <div class="col-md-6">
+        <h4 class="prov-select">Which Province would you hope to find our spice?</h4>
+        <button onclick="toggleabmn()" type="button" class="btn btn-warning">AB MN</button>
+        <button type="button" class="btn btn-warning">NB</button>
+        <button type="button" class="btn btn-warning">NL</button>
+        <button type="button" class="btn btn-warning">NS</button>
+        <button type="button" class="btn btn-warning">PE</button>
+        <button type="button" class="btn btn-warning" onclick="js/script.js/toggleonqc()">ON QC</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <table id="albertamanitoba" class="table">
+          <thead>
+            <tr>
+              <th scope="col">Retail Name</th>
+              <th scope="col">Location</th>
+              <th scope="col">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The Atlantic Kitchen</td>
+              <td>Fort Sask</td>
+              <td>780 263-0241</td>
+            </tr>
+            <tr>
+              <td>Lyet's</td>
+              <td>the Pas</td>
+              <td>204 623-7996</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <table id="ontarioquebec" class="table">
+          <thead>
+            <tr>
+              <th scope="col">Retail Name</th>
+              <th scope="col">Location</th>
+              <th scope="col">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Burton Meats Inc</td>
+              <td>Mississauga</td>
+              <td>905 672-9911</td>
+            </tr>
+            <tr>
+              <td>Mark D Foeller</td>
+              <td>Thomasburg</td>
+              <td>902 225-9145</td>
+            </tr>
+            <tr>
+              <td>Langlois Source des Mers Inc</td>
+              <td>Rimouski</td>
+              <td>418 750-5970</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
@@ -194,6 +317,11 @@
     <div class="row">
       <div class="col-md-6">
         <h1 class="big-heading">HALIFAX SPICE CORPORATE SALES</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img class="spiceit-image" src="images/SpiceIt.png" alt="Spice it up!">
       </div>
     </div>
   </section>
@@ -314,10 +442,9 @@
   </section>
 
   <footer id="footer">
-    <div class="container-fluid">
-      <!-- <i class="fa-solid fa-envelope footer-icon"></i> -->
-      <p>©2022 Copyright Halifax Spice Company</p>
-    </div>
+    <!-- <i class="fa-solid fa-envelope footer-icon"></i> -->
+    <p>©2022 Copyright Halifax Spice Company</p>
+
   </footer>
 
 </body>
