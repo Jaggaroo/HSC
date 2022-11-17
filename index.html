@@ -226,18 +226,6 @@
   </section>
 
   <section id="retail">
-
-    <script type="text/javascript">
-      function toggleabmn() {
-        var abmn = document.getElementById("albertamanitoba");
-        if (abmn.style.display = "none";) {
-          abmn.style.display = "block";
-        } else {
-          abmn.style.display = "none";
-        }
-      }
-    </script>
-
     <img class="bg-image" src="images/background.jpg" alt="Halifax Spice Background">
     <div class="row">
       <div class="col-md-6">
@@ -246,11 +234,11 @@
       <div class="col-md-6">
         <h4 class="prov-select">Which Province would you hope to find our spice?</h4>
         <button onclick="toggleabmn()" type="button" class="btn btn-warning">AB MN</button>
-        <button type="button" class="btn btn-warning">NB</button>
-        <button type="button" class="btn btn-warning">NL</button>
-        <button type="button" class="btn btn-warning">NS</button>
-        <button type="button" class="btn btn-warning">PE</button>
-        <button type="button" class="btn btn-warning" onclick="js/script.js/toggleonqc()">ON QC</button>
+        <button onclick="togglenb()" type="button" class="btn btn-warning">NB</button>
+        <button onclick="togglenl()" type="button" class="btn btn-warning">NL</button>
+        <button onclick="togglens()" type="button" class="btn btn-warning">NS</button>
+        <button onclick="togglepe()" type="button" class="btn btn-warning">PE</button>
+        <button onclick="toggleonqc()" type="button" class="btn btn-warning" onclick="js/script.js/toggleonqc()">ON QC</button>
       </div>
     </div>
 
@@ -305,6 +293,42 @@
               <td>Langlois Source des Mers Inc</td>
               <td>Rimouski</td>
               <td>418 750-5970</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <table id="princeedwardisland" class="table">
+          <thead>
+            <tr>
+              <th scope="col">Retail Name</th>
+              <th scope="col">Location</th>
+              <th scope="col">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Co-op Morell</td>
+              <td>Morell</td>
+              <td>902 961-2687</td>
+            </tr>
+            <tr>
+              <td>Kitchens Unlimited</td>
+              <td>Charlottetown</td>
+              <td>902 894-6042</td>
+            </tr>
+            <tr>
+              <td>Sobeys Charlottetown</td>
+              <td>Charlottetown</td>
+              <td>902 626-3334</td>
+            </tr>
+            <tr>
+              <td>Sobeys West Royalty</td>
+              <td>Charlottetown</td>
+              <td>902 566-3218</td>
             </tr>
           </tbody>
         </table>

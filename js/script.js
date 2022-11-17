@@ -1,58 +1,53 @@
 // Button Toggle function
 
-
-// function toggleabmn() {
-//   let abmn = document.querySelector(".albertamanitoba");
-//   abmn.style.display = "none";
-// }
-
-
-
-
-// const abmn = document.getElementById("albertamanitoba");
+// var abmn = document.getElementById("albertamanitoba");
 // const onqc = document.getElementById("ontarioquebec");
 // const nb = document.getElementById("newbrunswick");
 // const ns = document.getElementById("novascotia");
 
 // Alberta and Manitoba
 function toggleabmn() {
-  let abmn = document.getElementById(#albertamanitoba);
-  if (abmn.style.display = "none";) {
-    abmn.style.display = "block";
-  } else {
-      abmn.style.display = "none";
-  }
+  // alert('Alberta & Manitoba');
+  var abmn = document.getElementById("albertamanitoba");
+  var onqc = document.getElementById("ontarioquebec");
+  var pe = document.getElementById("princeedwardisland");
+  onqc.style.display = 'none';
+  pe.style.display = 'none';
+  abmn.style.display = 'block';
 }
 
-let abmn = document.querySelector(".albertamanitoba");
- function toggleabmn() {
-   abmn.classList.toggle("hide");
- }
-
-
 // Ontario and Quebec
-// toggleonqc.addEvntListener('click', function handleClick()) {
-//   // if (onqc.style.display === 'none') {
-//     abmn.style.display = 'none';
-//     // onqc.style.display = 'block'}
-// }
+function toggleonqc() {
+  // alert('Ontario & Quebec');
+  var abmn = document.getElementById("albertamanitoba");
+  var onqc = document.getElementById("ontarioquebec");
+  var pe = document.getElementById("princeedwardisland");
+  abmn.style.display = 'none';
+  pe.style.display = 'none';
+  onqc.style.display = 'block';
+}
 
 // New Brunswick
 function togglenb() {
-
-}
-
-// Nova Scotia
-function togglens() {
-
+  alert('New Brunswick');
 }
 
 // Newfoundland & Labrador
 function togglenl() {
+  alert('Newfoundland & Labrador');
+}
 
+// Nova Scotia
+function togglens() {
+  alert('Nova Scotia');
 }
 
 // Prine Edward Island
 function togglepe() {
-
+  var abmn = document.getElementById("albertamanitoba");
+  var onqc = document.getElementById("ontarioquebec");
+  var pe = document.getElementById("princeedwardisland");
+  abmn.style.display = 'none';
+  onqc.style.display = 'none';
+  pe.style.display = 'block';
 }

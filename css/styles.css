@@ -105,8 +105,8 @@ dt, dd {
   margin: 1% 30%;
 }
 
-#albertamanitoba {
-  display: block;
+#albertamanitoba, #princeedwardisland {
+  display: none;
   }
 
 #contact p {
